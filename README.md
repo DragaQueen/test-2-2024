@@ -12,10 +12,13 @@
 12. git commit -m "comment" - запись файлов в GIT
 13. git log - подробная информация о комитах
 14. git log --oneline - краткая информация о комитах
-15. git push [rep_link] [branch_name]
+15. git push [rep_link] [branch_name] - перенос данных на удаленный репозиторий
 16. git branch - посмотреть название ветки (branch_name)
 17. git reset (file) - удалить файл по имени из stage
 18. git reset --hard - отменяет все изменеия указанные в гит статус
 19. git diff - показывает внесенные изменения
 20. git branch name - создание новой ветки
 21. git checkout name - сменить ветку
+22. git pull [rep_link] [branch_name] - обновление локальных данных с удаленного репозитория
+23. git merge - соединение веток через терминал
+24. git branch -d name - удалить ветку из локального репозитория
