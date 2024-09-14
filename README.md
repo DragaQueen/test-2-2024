@@ -1,10 +1,15 @@
-ls -a
-git init
-git remote -v
-git remote add origin link
-git config
-git config --list
-git config user.name ''
-git config user.email ''
-git status
-git add(files)
+ls -a - проверка, подключенных папок
+git init - инициализация проекта
+git remote -v - проверка привязки проекта к репозиторию
+git remote add origin link - привязка проекта к нужному репозиторию
+git config - доступные команды настроек
+git config --list - список установленных настроек
+git config user.name '' - установка/получение имени пользователя
+git config user.email '' - установка/получение электронной почты пользователя
+git status - отоброжение измененных/новых файлов
+git add(files) - добавление файлов для записи по имени в подготовительную область
+git add . - добавление всех файлов в stage
+git commit -m "comment" - запись файлов в GIT
+git log - подробная информация о комитах
+git log --oneline - краткая информация о комитах
+git push [rep_link] [branch_name]
